@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tab1"
+        android:layout_width="71dp"
+        android:layout_height="61dp"
+        android:background="#f67"
+        android:gravity="center"
+        android:text="pink"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <TextView
+        android:id="@+id/tab2"
+        android:layout_width="69dp"
+        android:layout_height="60dp"
+        android:background="#A67"
+        android:gravity="center"
+        android:text="purper"
+        app:layout_constraintLeft_toRightOf="@+id/tab1"
+        android:layout_marginLeft="40dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <TextView
+        android:id="@+id/tab3"
+        android:layout_width="79dp"
+        android:layout_height="60dp"
+        android:background="#767"
+        android:gravity="center"
+        android:text="gray"
+        app:layout_constraintLeft_toRightOf="@+id/tab2"
+        android:layout_marginLeft="42dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/tab4"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:text="orange"
+        android:background="#f26e0f"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/tab1"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/tab5"
+        android:layout_width="75dp"
+        android:layout_height="72dp"
+        android:text="blue"
+        android:background="#0f6af2"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        app:layout_constraintTop_toBottomOf="@+id/tab2"
+        app:layout_constraintLeft_toRightOf="@+id/tab4"
+        android:layout_marginLeft="63dp" />
+
+    <TextView
+        android:id="@+id/tab6"
+        android:layout_width="72dp"
+        android:layout_height="70dp"
+        android:text="red"
+        android:background="#f21a0f"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@+id/tab5"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintTop_toBottomOf="@+id/tab3" />
+
+
+</android.support.constraint.ConstraintLayout>

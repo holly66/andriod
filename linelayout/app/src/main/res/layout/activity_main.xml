@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="one,one" />
+    <Button
+        android:id="@+id/btnClose1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="one,two" />
+    <Button
+        android:id="@+id/btnClose2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="one,three" />
+    <Button
+        android:id="@+id/btnClose3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="one,four" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnClose4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,one" />
+        <Button
+            android:id="@+id/btnClose5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,two" />
+        <Button
+            android:id="@+id/btnClose6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,three" />
+        <Button
+            android:id="@+id/btnClose7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,four" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnClose8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,one" />
+        <Button
+            android:id="@+id/btnClose9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,two" />
+        <Button
+            android:id="@+id/btnClose10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,three" />
+        <Button
+            android:id="@+id/btnClose11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,four" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnClose12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,one" />
+        <Button
+            android:id="@+id/btnClose13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,two" />
+        <Button
+            android:id="@+id/btnClose14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,three" />
+        <Button
+            android:id="@+id/btnClose15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,four" />
+    </LinearLayout>
+</LinearLayout>
