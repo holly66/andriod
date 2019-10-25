@@ -1,6 +1,5 @@
 package com.example.administrator.animals;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -50,7 +49,7 @@ public class  MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                view.setBackgroundColor(Color.RED);
+                //view.setBackgroundColor(Color.RED);
                 Toast toast = Toast.makeText(MainActivity.this,animals[position],Toast.LENGTH_SHORT);
                 toast.show();
 
@@ -62,6 +61,7 @@ public class  MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
+
 
             }
 
