@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/baidu.iml" filepath="$PROJECT_DIR$/baidu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baiduchrome.iml" filepath="$PROJECT_DIR$/baiduchrome.iml" />
     </modules>
   </component>
 </project>
